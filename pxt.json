@@ -1,37 +1,23 @@
 {
-    "name": "neopixel",
-    "version": "0.7.3",
-    "description": "AdaFruit NeoPixel driver",
-    "license": "MIT",
+    "name": "led_ver0_2",
+    "version": "0.0.1",
+    "description": "",
     "dependencies": {
         "core": "*",
-        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+        "radio": "*",
+        "microphone": "*"
     },
     "files": [
         "README.md",
-        "neopixel.ts",
-        "_locales/ja/neopixel-strings.json",
-        "_locales/de/neopixel-strings.json",
-        "_locales/de/neopixel-jsdoc-strings.json",
-        "_locales/fr/neopixel-strings.json",
-        "_locales/fr/neopixel-jsdoc-strings.json",
-        "_locales/zh/neopixel-strings.json"
+        "EUREKA_LED.ts",
+        "_locales/ja/led-strings.json"
     ],
     "testFiles": [
-        "neotest.ts"
+        "EUREKA_LED.ts"
     ],
     "public": true,
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj",
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "bluetooth": {
-                    "enabled": 0
-                }
-            }
-        }
-    }
+    "preferredEditor": "tsprj"
 }
